@@ -1,0 +1,11 @@
+.App{
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.App h1{
+    text-align: center;
+    color: rgba(155, 0, 250, 1);
+}

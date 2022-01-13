@@ -1,0 +1,48 @@
+.todoItemWrapper{
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+      );
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+.task{
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.todoDone{
+    position: relative;
+    background: rgb(143, 226, 10);
+}
+
+.todoDone::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 5px;
+    right: 20%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.deleteIcon{
+    width: 20%;
+    padding: 20px 10px;
+    font-weight: 600;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+
+
+

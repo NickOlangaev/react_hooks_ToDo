@@ -1,0 +1,8 @@
+.todoList{
+    padding: 10px 0;
+}
+
+.noTasksMessage{
+    text-align: center;
+    color: red;
+}
